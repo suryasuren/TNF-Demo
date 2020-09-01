@@ -1,0 +1,304 @@
+
+
+@media screen and (max-width: 990px) {
+	.service-points {
+		text-align: left;
+		font-size: 75%;
+	}
+	.service-points  h4 {
+		margin-top: 20px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-points i {
+		margin-left: 20px;
+	}
+	.service-points img {
+		height: 50px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1020px) {
+	.logo {
+		height: 65px;
+		width: auto;
+	}
+	.main-nav {
+		display: block;
+	}
+	.hero-text-box {
+		top: 65%;
+		font-size: 60%;
+	}
+
+	.feature h3 {
+		font-size: 100%;
+	}
+	.feature p {
+		font-size: 80%;
+		font-weight: 400;
+	}
+	.feature h4{
+		font-size: 80%;
+		padding: 0px;
+		text-align: left;
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 1326px) {
+	.logo {
+		height: 75px;
+		width: auto;
+	}
+	.hero-text-box {
+		top: 65%;
+		font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo {
+		height: 40px;
+		width: auto;
+	}
+	.main-nav {
+		display: none;
+	}
+	.hero-text-box {
+		font-size: 60%;
+	}	
+	
+	.feature .box {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+	.feature h3 {
+		font-size: 80%;
+	}
+	.feature p {
+		font-size: 80%;
+		font-weight: 400;
+		justify-content: space-around;
+	}
+	.feature h4{
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.fas {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-steps h3 {
+		font-size: 90%;
+	}
+	.service-steps img {
+		height: 300px;
+		width: auto;
+		margin-right: auto;
+		margin-left: 22%;
+	}
+	.service-points {
+		border-left: none;
+		border-top: 2px solid orange;
+		text-align: left;
+		font-size: 80%;
+	}
+	.service-points  h4 {
+		margin-top: 20px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-points i {
+		margin-left: 20px;
+	}
+	.service-points img {
+		height: 50px;
+		width: auto;
+	}
+
+	.areas h3 {
+		font-size: 80%;
+	}
+	.areas img {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+	}
+
+	.areas .sub-area {
+		font-size: 90%;
+	}
+    .areas .sub-area, 
+    .areas h4 {
+    	text-align: center;
+    }
+
+    .forms h3 {
+    	font-size: 90%;
+    }
+    .form-inside {
+    	width: 80%;
+    }
+
+    .forms .row {
+    	padding-left: 20px;
+    	padding-right: 20px;
+    }
+    .forms .lab {
+    	margin-top: 10px;
+    	margin-bottom: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+		height: 60px;
+		width: auto;
+	}
+	.main-nav {
+		display: none;
+	}
+	.hero-text-box {
+		font-size: 70%;
+	}
+
+	.feature h3 {
+		font-size: 90%;
+	}
+
+	.feature .cll {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.feature .box {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80%;
+		height: auto;
+	}
+	.feature p {
+		font-weight: 400;
+		font-size: 90%;
+		justify-content: center;
+	}
+	.feature h4{
+		text-align: center;
+		margin-left: 5px;
+	}
+	.fas {
+		text-align: center;
+		margin-left: 5px;
+}
+
+	.service-steps h3 {
+		font-size: 90%;
+	}
+
+	.service-steps .row {
+		display: block;
+	}
+	.service-steps img {
+		display: block;
+		height:225px;
+		width: auto;
+		margin-left: 15%;
+		margin-right: auto;
+	}
+
+	.service-points {
+		float: none;
+		margin-left: 30px;
+		margin-right: auto;
+		margin-top: 70px;
+		border-left: none;
+		width: 90%;
+		height: auto;
+		text-align: center;
+		font-size: 80%;
+	}
+	.service-points p {
+		width: 100%;
+		display: none;
+	}
+
+	.service-points  h4 {
+		width: 100%;
+		display: none;
+		margin-top: 0px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.service-points i {
+		margin-left: 10px;
+		display: none;
+	}
+	.service-points img {
+		height: 40px;
+		width: auto;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.areas h3 {
+		font-size: 90%;
+	}
+	.areas img {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		height: auto;
+	}
+
+	.areas .sub-area {
+		font-size: 90%;
+	}
+    .areas .sub-area, 
+    .areas h4 {
+    	text-align: center;
+    }
+
+    .forms h3 {
+    	font-size: 90%;
+    }
+    .form-inside {
+    	width: 80%;
+    	font-size: 80%;
+    }
+
+    .forms .row {
+    	padding-left: 20px;
+    	padding-right: 20px;
+    	padding-right: 10px;
+    }
+    .forms .lab {
+    	margin-top: 0px;
+    	margin-bottom: 13px;
+    }
+
+    input[type=text],
+input[type=email],
+input[type=number],
+textarea , select {
+	width: 90%;
+	margin-top: -10px;
+}
+}
+
+
+
+
+
+
+
+
+

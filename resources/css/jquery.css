@@ -1,0 +1,55 @@
+
+/* --- for 1025px to 1200px --- */
+@media screen and (max-width: 1200px) {
+.hero-text-box {
+    	width: 70%;
+    	padding: 0% 2%;
+    	left : 50%;
+}
+
+.logo {
+	height: 75px;
+	width: auto;
+}
+
+.row {
+	width: 100%;
+	padding: 0% 2%;
+}
+
+};
+
+
+/* --- for 678px to 1024 --- */
+@media screen and (max-width: 1024px) {
+.logo {
+	height: 75px;
+	width: auto;
+}
+
+
+
+}; 
+
+
+/* --- for 481px to 677px --- */
+@media screen and (max-width: 677px) {
+.logo {
+	height: 75px;
+	width: auto;
+}
+
+
+}; 
+
+
+
+/* --- for the small screen below 480px --- */
+@media screen and (max-width: 550px) {
+.logo {
+	height: 50px;
+	width: auto;
+}
+
+
+};
